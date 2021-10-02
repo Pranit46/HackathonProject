@@ -1,0 +1,120 @@
+ body{
+    background-image: linear-gradient(to right bottom, #efeaf8, #b1a9b2, #746d71, #3b3738, #010000);
+    /* background-image: linear-gradient(to left, #eac4ec, #da9edb, #ca77ca, #b94db7, #a807a4);*/
+  
+ } 
+
+.imageFork{
+    width: 15px;
+}
+
+.star
+{
+    font-size: 20px;
+}
+
+/* .iamgeOctate {
+    border-radius: 215px;
+    height: 280px;
+} */
+
+
+.imageOctate {
+    border-radius: 262px;
+    height: 273px;
+    margin-left: 100px;
+}
+
+.Name{
+font-family: 'Noto Sans Display', sans-serif;
+color: #ABA4AC;
+}
+
+.OwnerName{
+    margin-left: 153px;
+    color: #ffffff;
+}
+
+.ulrCode{
+    cursor: pointer;
+    color: green;
+    font-weight: bold;
+  }
+
+
+ .codelink{
+     margin-left: 60%;
+ } 
+
+  .ulrCode:hover{
+    color: rgb(240, 240, 119);
+    font-weight: bold;
+  }
+
+
+ .mainContainer {
+    display: flex;
+    position: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.user-container{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 11px;
+  
+}
+
+.user-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 111px; 
+   
+}
+
+.countForkLike {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 5px;
+}
+
+.starCountContainer {
+    margin-right: 10px;
+
+}
+
+
+.user-container:hover{
+    box-shadow: -1px -5px 8px 9px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -1px -5px 8px 9px rgba(255,255,255,0.75);
+    -moz-box-shadow: -1px -5px 8px 9px rgba(255,255,255,0.75);
+
+
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(0.9);
+
+    transition: 0.3s;
+}
+
+@media (max-width:600px) {
+    .user-list{
+        
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding-left: 0px; 
+        
+    }
+}
